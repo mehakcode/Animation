@@ -1,0 +1,255 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    height: 100vh;
+} */
+
+/* .fan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: url('./assests/fan.jpg') no-repeat center center/contain;
+    animation: spiner 0.5s linear infinite;
+}
+
+.ant {
+    background: url(./assests/ant.jpg);
+}
+
+@keyframes spiner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ******************************** */
+
+/* .box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    animation: moveable 8s alternate;
+}
+
+@keyframes moveable {
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: aqua;
+        left: 300px;
+        top: 0;
+    }
+
+    50% {
+        border-color: blue;
+        top: 300px;
+        left: 300px;
+    }
+
+    75% {
+        background-color: blueviolet;
+        top: 300px;
+        left: 0;
+    }
+
+    100% {
+        background-color: green;
+        top: 0;
+    }
+}
+
+
+/* ********************************** */
+/* 
+
+.main {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+#ant-img {
+    position: relative;
+    width: 60px; */
+/* left: -70px;
+    top: 200px; */
+/* animation: antmove 5s infinite; */
+/* }
+
+@keyframes antmove {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 200px;
+        top: 0;
+    }
+
+    50% {
+        top: 200px;
+        left: 200px;
+    } */
+/* 
+    75% {
+        top: 200px;
+        left: 0;
+    }
+
+    100% {
+        top: 0px;
+    }
+} */
+
+
+
+/* **************Grid******************** */
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 12px;
+}
+
+.grid-item {
+    background-color: rgb(248, 160, 160);
+    font-size: large;
+    color: white;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}  */
+
+.box-comtainer{
+    border: 1px solid rgb(75, 71, 71);
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.circle-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    animation: moveable 5s infinite;
+}
+
+@keyframes moveable {
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: aqua;
+        left: 400px;
+        top: 0;
+    border: 1px solid blue;}
+        
+        
+    45%{
+        background-color: rgb(7, 71, 73);
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        background-color: yellowgreen;
+        left: 0;
+        top: 400px;
+    }
+    100%{
+        background-color: pink;
+        top: 0;
+        left: 0;
+    }
+    }
+.round-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: pink;
+    border-radius: 50%;
+    animation: run 5s infinite;
+}
+@keyframes run {
+0%{
+    top: 0;
+    left: 0;
+}
+    35%{
+        top: 450px;
+        left: 0px;
+    }
+    55%{
+        background-color: rgb(7, 71, 73);
+        top: 450px;
+        left: 450px;
+    }
+    75%{
+        background-color: yellowgreen;
+        left: 450px;
+        top: 0px;
+    }
+    100%{
+        background-color: pink;
+        top: 0;
+        left: 0;
+    }
+}
+.box-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: rgb(189, 10, 40);
+    border-radius: 50%;
+    animation: box3 5s infinite;
+}
+@keyframes box3 {
+0%{
+    top: 0;
+    left: 450px;
+}    
+35%{
+    top: 450px;
+    left: 450px;
+}
+55%{
+    top: 450px;
+    left: 0px;
+}
+75%{
+    top: 0;
+    left: 0;
+}
+100%{
+    top: 0;
+    left: 450px;
+}
+}
